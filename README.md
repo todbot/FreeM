@@ -1,6 +1,11 @@
 FreeM Kit: aka "BlinkM Battery Remote"
 ======================================
 
+https://www.youtube.com/watch?v=3fSsRGN1ip0
+
+[![](http://img.youtube.com/vi/3fSsRGN1ip0/0.jpg)](http://www.youtube.com/watch?v=3fSsRGN1ip0)
+
+
 Documentation is kind of sparse at the moment.
 So this kit is aimed at more advanced users right now.
 
@@ -11,6 +16,7 @@ Otherwise, tune the Makefile for your AVR programmer if you're not using an
 AVRISP mkII.  Then type "make program" to compile and program your chip.
 
 From the header of the firmware, these are the basic features:
+```
  * Remote control functions:  (Sony TV remotes only right now)
  * - POWER     - stop script & turn off blinkm
  * - CH  UP/DN - solid hue mode, cycle hue if held down
@@ -48,7 +54,7 @@ From the header of the firmware, these are the basic features:
  * pin 6 -- PB1   -- MISO        -- LED1 & serial TX out
  * pin 7 -- PB2   -- SCK/SCL     -- 
  * pin 8 -- VCC   -- VCC
-
+```
 
 Assembly Tip:
    LED orientation: Cathode (short lead) faces the "led1" silkscreen printing on the PCB. 
