@@ -1,4 +1,4 @@
-FreeM Kit: aka "BlinkM Battery Remote"
+# FreeM: aka "BlinkM Battery Remote"
 ======================================
 
 https://www.youtube.com/watch?v=3fSsRGN1ip0
